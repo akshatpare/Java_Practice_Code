@@ -11,7 +11,7 @@ public class Conditional {
             System.out.println("Age is above 50 ");
         }
         
-
+// In this file I have just created one object and I called it again and again for different questions
 
 //Write a program to enter 2 numbers and display the greater number between them
 System.out.print("Enter first number:");
