@@ -5,7 +5,7 @@ public class Logical_Operator {
 
 
        Scanner takeInput = new Scanner(System.in);
-        /* 
+     
 //Write a program to enter any alphabet and check if it is Capital or small letter
 System.out.print("Enter Alphabet: ");
 char ch = takeInput.next().charAt(0);
@@ -21,8 +21,7 @@ else if(ch >= 'a' && ch <= 'z'){
 else {
    System.out.println("The Character Entered "+ ch +" Is Not A Part Of Alphabets From Neither (A to Z) Nor From (a to z).");
 }
-*/
-/* 
+ 
 
 //Write a Java program to check if a number is both divisible by 2 and 3
 
@@ -37,8 +36,8 @@ else{
     System.out.println("The Number "+ num + " Is Not Divisible By 2 & 3" );
 }
 
-*/
-/* 
+
+ 
 
 //Write a Java program to check if a character is a vowel or a consonant using logical operators.
 
@@ -56,8 +55,8 @@ if( alphabet >= 'a' && alphabet <= 'z'){
 else{
     System.out.println("Either Entered Object Is An Upper Case Letter Or Entered Object Is Not An Alphabet");
 }
-*/
-/* 
+
+ 
 // Write a Java program to check if a given year is a leap year.
 System.out.print("Enter Year : ");
 int year = takeInput.nextInt();
@@ -68,8 +67,8 @@ int year = takeInput.nextInt();
     else{
         System.out.println("Year" + year + " Is Not A Leap Year");
     }
-*/
-/* 
+
+ 
 //Write a Java program to check if a number is positive and even.
 
 System.out.print("Enter Number: ");
@@ -80,8 +79,8 @@ int number = takeInput.nextInt();
     else{
         System.out.println("Entered Number " + number + " Is Not A Positive Number Or Is Not An Even Number");
     }
-*/
-/* 
+
+ 
 //Write a Java program to check if a number is negative or odd.
 
 System.out.print("Enter Number: ");
@@ -92,8 +91,8 @@ int number = takeInput.nextInt();
     else{
         System.out.println("Entered Number " + number +" Is Either Positive Or Even Number ");
     }
-*/
-/* 
+
+ 
 //Write a Java program to check if a number is divisible by both 5 and 7.
 
 System.out.print("Enter Number: ");
@@ -104,11 +103,11 @@ int num = takeInput.nextInt();
  else{
     System.out.println("The Number " + num + " Is Not Divisible By 5 or 7");
  }
-*/
+
 //Write a Java program to check if a given string starts with "Hello" and ends with "World".
 //This Problem cannot be solved without using Functions.
 
-/* 
+ 
 
 //Write a Java program to check if a number is a prime number or a multiple of 5.
     System.out.print("Enter Number: ");
@@ -125,7 +124,7 @@ int num = takeInput.nextInt();
     else{
         System.out.println("Number "+ number + "Is not Neither A Prime Number Nor A Multiple Of 5" );
     }
-*/
+// I am not sure about this problem.
 
        
 
