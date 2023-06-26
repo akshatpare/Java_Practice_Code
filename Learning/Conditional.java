@@ -154,6 +154,21 @@ else{
     System.out.println("Candidate is not Elegible");
 }
 
+//Write a Java program to check if a number is positive or negative.
+        
+System.out.print("Enter Digit: ");
+int digit = takeInput.nextInt();
+if(digit > 0){
+    System.out.println("Entered Number " + digit + " Is Positive");
+}
+
+else if( digit < 0){
+    System.out.println("Entered Number " + digit + " Is Negative");
+}
+else if( digit == 0){
+    System.out.println("Entered Number Is 0");
+}
+
  
 
 //Write a program to display week days name according to the given alphabet by the user
@@ -176,25 +191,7 @@ switch(alphabet){
 }
 
  
-//write a program to display the entered alphabet is vowle or consonent
 
-System.out.print("Enter Alphabet: ");
-char alpha = condit.nextLine().toLowerCase().charAt(0);
-switch(alpha){
-
-    case 'a':
-    case 'e':
-    case 'i':
-    case 'o':
-    case 'u':
-    System.out.println("The Alphabet " + alpha + " is a vowel");
-    break;
-
-    default:
-    System.out.println("The Alphabet "+ alpha + " is a consonent");
-    
-    
-}
 
 
 
