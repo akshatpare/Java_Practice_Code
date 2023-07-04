@@ -53,7 +53,7 @@ if( alphabet >= 'a' && alphabet <= 'z'){
     
 }
 else{
-    System.out.println("Either Entered Object Is An Upper Case Letter Or Entered Object Is Not An Alphabet");
+    System.out.println("Either Entered Character Is An Upper Case Letter Or Entered Character Is Not An Alphabet");
 }
 
  
